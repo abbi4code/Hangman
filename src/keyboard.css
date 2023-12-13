@@ -1,0 +1,31 @@
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 5px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.keyboard button{
+    
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    width: calc(100% / 9 - 5px);
+    padding: 7px;
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+    
+}
+
+
+
+
+.keyboard  button:hover{
+    background: rgb(126, 196, 21);
+    
+}
